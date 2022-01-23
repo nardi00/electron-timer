@@ -1,0 +1,15 @@
+{
+  "name": "electron_timer_git",
+  "version": "1.0.0",
+  "description": "Timer app built with Electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^16.0.7"
+  }
+}
