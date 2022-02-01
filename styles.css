@@ -1,47 +1,51 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+:root {
+  --white: #ffffff;
+  --black: #000000;
+}
+
 body {
-    font-family: 'JetBrains Mono', monospace;
-    height: 150px;
-    width: 300px;
-    overflow: hidden;
-    border-radius: 15px;
-    position: relative;
-    background-color: black;
-    margin: 0;
+  font-family: "Poppins", sans-serif;
+  height: 150px;
+  width: 300px;
+  overflow: hidden;
+  border-radius: 15px;
+  position: relative;
+  background-color: var(--white);
+  margin: 0;
 }
 
 #container {
-    font-family: 'JetBrains Mono', monospace;
-    width: 100%;
-    height: 100%;
-    background-color: #FDECEF;
-    margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  height: 100%;
+  background-color: var(--white);
+  margin: 0 auto;
 }
 
 .top_bar {
-    width: 100%;
-    height: 15px;
-    -webkit-app-region: drag;
-    background-color: #612940;
+  width: 100%;
+  height: 15px;
+  -webkit-app-region: drag;
+  background-color: whitesmoke;
 }
 
 .countdown_container {
-    margin-right: 70px;
-    margin-left: 60px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 25px;
-/*     margin-top: 20px;
- */    font-family: 'JetBrains Mono', monospace;
-    font-weight: 800;
-    color: #0F110C;
+  margin-right: 70px;
+  margin-left: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: var(--black);
 }
 
 input[type="number"] {
-    text-align: center;
-    font-family: 'JetBrains Mono', monospace;
-    color: #0F110C;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: var(--black);
 }
 
 input::-webkit-outer-spin-button,
@@ -52,46 +56,46 @@ input::-webkit-inner-spin-button {
 }
 
 .time {
-    width: 100%;
-    height: 100%;
-    font-size: 50px;
-    outline: none;
-    border: none;
-    background-image: none;
-    background-color: #FDECEF;
-    box-shadow: none;
-    align-content: center;
-    font-family: 'JetBrains Mono', monospace;
-    font-weight: 800;
-    color: #0F110C;
+  width: 100%;
+  height: 100%;
+  font-size: 50px;
+  outline: none;
+  border: none;
+  background-image: none;
+  background-color: var(--white);
+  box-shadow: none;
+  align-content: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  color: var(--black);
 }
 
 .button_container {
-    margin-right: 85px;
-    margin-left: 75px;
-/*     margin-top: 10px;
- */    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-family: 'JetBrains Mono', monospace;
+  margin-right: 85px;
+  margin-left: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
 }
 .btn {
-    height: 30px;
-    width: 65px;
-    pointer-events: auto;
-    cursor: pointer;
-    border: none;
-    margin: 0;
-    background: #612940;
-    outline: none;
-    font-size: 17px;
-    border-radius: 5px;
-    font-family: 'JetBrains Mono', monospace;
-    font-weight: 600;
-    color:#FDECEF;
+  height: 30px;
+  width: 65px;
+  pointer-events: auto;
+  cursor: pointer;
+  border: none;
+  margin: 0;
+  background: var(--white);
+  border: 1px solid var(--black);
+  outline: none;
+  font-size: 17px;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: var(--black);
 }
 
 .semicolon {
-    font-weight: bold;
-    color: #0F110C;
+  font-weight: bold;
+  color: var(--black);
 }
