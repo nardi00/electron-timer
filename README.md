@@ -2,8 +2,8 @@
 
 Timer widget construído em Javascript com Electron.
 
-![timer](https://github.com/nardi00/electron-timer/blob/main/README-IMAGE/timer1.png)
 ![timer widget](https://github.com/nardi00/electron-timer/blob/main/README-IMAGE/timer2.png)
+![timer](https://github.com/nardi00/electron-timer/blob/main/README-IMAGE/timer1.png)
 
 ## Como rodar o projeto
 
